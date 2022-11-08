@@ -127,3 +127,15 @@ color:#472D2D;
    cursor: pointer;
    text-align: center;
  }
+ .navbar{
+    text-align: right;
+    background-color: #E6D2AA;
+    padding-top:30px;
+ }
+ a{
+    text-decoration: None;
+    color:#472D2D;
+ }
+ .pages{
+    padding-right: 10%;
+ }
