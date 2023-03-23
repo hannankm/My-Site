@@ -1,0 +1,321 @@
+body {
+  background-color: hsla(0, 0%, 0%, 0.916);
+  color: white;
+  font-family:Montserrat, Montserrat;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  color: #88985d;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+/*
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #0078ff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #298eff;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+*/
+
+
+#title{
+  height: 100vh;
+  /* background-image: url('../img/blackwavy.jpg'); */
+  background-size: cover;
+  padding: 20% 7%;
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 1.5;
+  
+    
+}
+   h1{
+    font-size: 4.5rem;
+   }
+
+#mypic{
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+
+}
+
+#about{
+  padding: 7% 15%;
+}
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+
+
+/* MY CSS STYLES*/
+.mynav{
+  font-family:Merriweather;
+  text-transform: lowercase;
+  font-weight: 500;
+}
+
+.highlight{
+  color: #ABC270;
+}
+iframe{
+  margin-bottom: 15%;
+  width: 100%;
+  height: 200px;
+}
+.mylogo{
+  font-family: 'DM Serif Display', serif;
+  color: #ABC270;
+  font-size: 36px;
+  padding-right: 50%;
+}
+.bar{
+  width: 200px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 6px;
+}
+
+#bar1{
+  width: 85%;
+  height: 16px;
+  background-color: #ABC270;
+  border-radius: 2px;
+}
+
+#bar2{
+  width: 70%;
+  height: 16px;
+  
+  background-color: #ABC270;
+  border-radius: 2px;
+}
+
+#bar3{
+  width: 60%;
+  height: 16px;
+ 
+  background-color: #ABC270;
+  border-radius: 2px;
+}
+
+#bar4{
+  width: 45%;
+  height: 16px;
+  background-color: #ABC270;
+  border-radius: 2px;
+}
+
+#bar5{
+  width: 65%;
+  height: 16px;
+  background-color: #ABC270;
+  border-radius: 2px;
+}
+
+#bar6{
+  width: 60%;
+  height: 16px;
+  background-color: #ABC270;
+  border-radius: 2px;
+}
+
+#bar7{
+  width: 80%;
+  height: 16px;
+  background-color: #ABC270;
+  border-radius: 2px;
+}
+
+#bar8{
+  width: 85%;
+  height: 16px;
+  background-color: #ABC270;
+  border-radius: 2px;
+}
+
+#bar9{
+  width: 45%;
+  height: 16px;
+  background-color: #ABC270;
+  border-radius: 2px;
+}
+
+#skills{
+  padding: 4% 15%;
+}
+
+.download{
+  background-color: #ABC270;
+}
+
+#gallery{
+  padding: 7% 4%;
+}
+
+.section-header{
+  margin-bottom: 30px;
+  
+  text-align: center;
+}
+#header{
+  
+  padding-top:3%;
+  padding-bottom:  7%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.field{
+  background-color:white;
+  color: black;
+  font-weight: 600;
+  padding: 100px;
+
+}
+
+#contact{
+
+  padding: 7% 15%;
+}
+
+.subheader{
+  color: black;
+  font-weight: bold;
+}
+
+
+.mybutton{
+  background-color: #ABC270;
+  color:white;
+  border-radius: 5%;
+  border: none;
+  font-size: 1rem;
+}
+
+.mybutton:hover{
+  background-color: #869460;
+  color:black;
+  font-weight:bold;
+}
+
+
+.icon{
+  border: none;
+  border-radius: 100%;
+  padding: 2px;
+  margin: 2%;
+  width: 25px;
+  height: 25px;
+  
+}
+
+.icon:hover{
+  border: hsla(0, 0%, 0%, 0.916) 2px solid;
+  
+}
+
+.hr{
+  color: #ABC270;
+  width: 40%;
+  height: 2px;
+}
+
+.column{
+  margin-bottom: 30px;
+}
+
+footer{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ABC270;
+}
+
+#tools{
+  margin: 10% 0;
+}
+
+.space{
+  padding-top: 30px;
+}
+  
+.project-img{
+  width: 350px;
+  height: 250px;
+}
+
+.my-images-slide{
+  padding-bottom: 15%;
+}
+
+#projects{
+  padding: 7% 4%;
+}
+
+.project-text{
+  text-align: center;
+  padding: 2%;
+  margin:2%;
+}
+
+.project-link img:hover{
+  border: #ABC270 4px solid;
+}
+
+.project-link h3:hover{
+  color: #ABC270;
+}
