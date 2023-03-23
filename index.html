@@ -1,63 +1,373 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Hanan</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="favicon (2).ico">
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <nav>
-            <div class="navbar">
-              <a href="index.html"class="pages">Home</a>
-              <a href="resume.html" class="pages">Resume</a>
-              <a href="contact.html" class="pages">Contact</a>
-              <a href="bloghome.html" class="pages">Blog</a>
-            </div>
-        </nav>
-        <div class="top-container">
-            <!--<img class="top-cloud" src="images/cloud.png" alt="cloud image" >-->
-            <h1>I'm Hanan.</h1>
-            <h2>a programmer.</h2>
-            <!--<img class="bottom-cloud" src="images/cloud.png" alt="cloud image" >-->
-            <img width= "150px" height="150px" src="plant.png" alt="mountain image" >
-        </div>
-        <div class="middle-container">
-            <div class="profile">
-              <img src="hijab_work-modified.png" alt="Hijabi working on her computer" width="200" height="200">
-              <h2>Hello.</h2>
-              <p class="bio">I'm Hanan, a programmer that enjoys baking, reading and watching football matches. I really love self-learning different topics. I speak English, Arabic and French.</p>
-            </div>
-            <hr>
-            <div class="skills">
-              <h2>My Skills.</h2>
-              <div class="skill-row">
-                <img class="frontend-image" src="ux.png" alt="computer" >
-                <h3>Front-end Development</h3>
-                <p> I'm profiecient in front-end web development using technologies like HTML5, CSS3, and JavaScript. In addition, I am also skilled in UI/UX design suing tools such as Figma and Adobe XD.</p>
-              </div> 
-              <div class="skill-row">
-                <img class="backend-image" src="backend.png" alt="backend" >
-                <h3>Back-end Development</h3>
-                <p>I'm skilled in back-end development using languages such as Python, Java and JavaScript and framworks Django, Spring and Node js respectively. Also I work with both relational and non-relational databases like: MySQL, MongoDB, and PostgreSQL.</p>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Hanan Kedir - Programmer</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logoHK.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files --
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+-->
+  <!--Bottstrap JS files -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+   <!--Bootstrap link-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;300;900&family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+ 
+</head>
+
+<body>
+
+  <!-- ======= Header ======= --
+
+          <!-- Nav Bar -->
+          <header id="#header" >
+        <!--Navigation Bar-->
+        <div class="container-fluid ">
+
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="nav-brand mylogo "href="index.html" >HK</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon">  </span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarToggle">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#about"><span class="highlight">01.</span> about</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#skills"><span class="highlight">02.</span> skills</a>
+                    </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#gallery"><span class="highlight">03.</span> gallery</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#projects"><span class="highlight">04.</span> projects</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#contact"><span class="highlight">05.</span> contact</a>
+                      </li>
+                      <li><a class="mynav  nav-link" target="_blank" href="C:\Users\HANAN\Downloads\HananResume.pdf" download><button class="mybutton">Resume</button></a></li>
+       
+                  </ul>
               </div>
-            </div>
+          </nav>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/blackwavy.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h1 class="hero-title mb-4">HANAN KEDIR</h1>
+          <p class="hero-subtitle"><span class="typed highlight" data-typed-items="DESIGNER, DEVELOPER, STUDENT"></span></p>
+        </div>
+      </div>
+    </div>
+  </div><- End Hero Section -->
+
+  <div id="title">
+    <h1>HANAN KEDIR.</h1>
+    <p class="highlight">FULL STACK DEVELOPER, <span class="highlight">&ltPROGRAMMER&gt</span>. </p>
+
+</div>
+
+ 
+
+
+    <section id="about">
+      <!-- About ME-->
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-lg-6">
+                  <h2><span class="highlight">01.</span> About Me</h2>
+                  <hr class="myhr">
+                  <p>Hi there, I'm <span class="highlight">Hanan!</span></p>
+                  <p>I am a third year Information Systems student at Addis Ababa University. I am interested in pursuing a career in Web Design and Developement.
+                       I do both frontend and back end web developemet. I also enjoy making desktop applications.
+                       Aside from programming, I'm into baking, reading, writing and watching football matches.</p>
+              </div>
+              <div class="col-lg-6">
+                  <img id="mypic" src="assets/img/mypic.jpg">
+
+              </div>
+          </div>
+      </div>
+</section>
+
+
+
+            <!-- Skills Section-->
+            <section id="skills">
+
+            
+              <h2><span class="highlight">02. </span>Skills</h2>
+              <hr class="myhr">
+              <div class="container-fluid">
+                  <div class="row space">
+                      <div class="col-lg-4">
+                          html
+                          <div class="bar" >
+                              <div id="bar1"></div>
+                         </div>
+                         CSS
+                         <div class="bar" >
+                          <div id="bar2"></div>
+                     </div>
+                     JavaScript
+                     <div class="bar" >
+                      <div id="bar3"></div>
+                 </div>
+                     </div> 
+                      <div class="col-lg-4">
+                          C++
+                          <div class="bar" >
+                              <div id="bar4"></div>
+                         </div>
+                         Java
+                         <div class="bar" >
+                          <div id="bar5"></div>
+                     </div>
+                     SQL
+                     <div class="bar" >
+                      <div id="bar6"></div>
+                 </div>
+                         
+  
+                      </div>
+                      <div class="col-lg-4">
+                          Python
+                          <div class="bar" >
+                              <div id="bar7"></div>
+                         </div>
+                         C#/.NET
+                         <div class="bar" >
+                          <div id="bar8"></div>
+                     </div>
+                     Node JS
+                     <div class="bar" >
+                      <div id="bar9"></div>
+                 </div>
+                      </div>
+                  </div>
+              </div>
+              
+              
+              <div id="tools" class="container-fluid">
+                  <h2>Tools & Frameworks</h2>
+                  <hr>
+                  <div class="row space">
+                    <div class="col-lg-3 col-sm-6">
+                      <p>Bootstrap</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <p>JQuery</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <p>Express</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <p>Git</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <p>Microsoft Visual Studio</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <p>Microsoft SQL Server</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <p>Figma</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <p>NetBeans IDE</p>
+                    </div>
+                  </div>
+              </div>
+          </section>
+    
+
+        <!--Image Gallery Carousel-->
+    
+<section id="gallery">
+  <h2><span class="highlight ">03. </span>Gallery</h2>
+  <hr class="myhr">
+  <h3 class="section-header">quotes I live by</h3>
+  <hr>
+  
+      <div id="imageGallery" class="carousel slide my-images-slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#imageGallery" data-slide-to="0" class="active"></li>
+          <li data-target="#imageGallery" data-slide-to="1"></li>
+          <li data-target="#imageGallery" data-slide-to="2"></li>
+          <li data-target="#imageGallery" data-slide-to="3"></li>
+          <li data-target="#imageGallery" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/img/quote.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/quote2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/quote3.png" alt="Third slide">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/img/quote4.png" alt="Fourth slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/img/quote5.png" alt="Fifth slide">
+        </div>
+      </div>
+      
+
+ 
+    </div>
+  </div>
+
+    <h2 class="section-header">my favorite videos recently</h2>
+    <hr>
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-lg-4 ">
+          <iframe  src="https://www.youtube.com/embed/PdxPCeWw75k"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          
+        </div>
+        <div class="col-lg-4">
+          <iframe  src="https://www.youtube.com/embed/vkQcpY3T8T4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+        </div>
+        <div class="col-lg-4">
+           <iframe  src="https://www.youtube.com/embed/MppBuRKbDyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           </div> 
+      </div>
+    </div>
+    </section>
+
+<section id="projects">
+  <h2><span class="highlight">04. </span>Projects</h2>
+  <hr class="myhr">
+  <div class="container-fluid">
+    <div class="row space">
+      <div class="col-lg-4">
+        <a class="project-link" target="_blank" href="file:///C:/Users/HANAN/Desktop/Web%20Dev%20Projects/Simon%20Game%20Challenge%20Starting%20Files/index.html"><img src="assets/img/Simon.png" alt="Project 1 Snapshot " class="project-img"></a>
+        <div class="project-text">
+        <a class="project-link" target="_blank" href="file:///C:/Users/HANAN/Desktop/Web%20Dev%20Projects/Simon%20Game%20Challenge%20Starting%20Files/index.html"><h3>Simon's Game </h3></a>
+        <p>A game developed using JavaScript, HTML, and CSS.</p>
+      </div>
+        </div>
+      <div class="col-lg-4">
+        <a class ="project-link" target="_blank" href= "C:/Users/HANAN/Desktop/Web%20Dev%20Projects/Web%20Dev%20Bootcamp/PennyJuice/index.html"><img src="assets/img/PennyJuice.png" alt="Project 2 Snapshot" class="project-img"></a>
+        <div class="project-text">
+          <a class="project-link" target="_blank" href="C:/Users/HANAN/Desktop/Web%20Dev%20Projects/Web%20Dev%20Bootcamp/PennyJuice/index.html"><h3>Penny Juice </h3></a>
+        <p>A static website developed using HTML, annd CSS.</p>
+      </div>
+        </div>
+      <div class="col-lg-4">
+        <a class="project-link" target="_blank" href="C:/Users/HANAN/Desktop/Web%20Dev%20Projects/Web%20Dev%20Bootcamp/Tincat/index.html"><img src="assets/img/TinDog.png" alt="Project 3 Snapshot" class="project-img"></a>
+        <div class="project-text">
+          <a class="project-link" target="_blank" href="C:/Users/HANAN/Desktop/Web%20Dev%20Projects/Web%20Dev%20Bootcamp/Tincat/index.html"><h3>TinDog</h3></a>
+        <p>A static website developed using HTML, CSS, and Bootstrap.</p>
+      </div>
+      </div>
+  </div>
+  </div>
+  
+</section>
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact">
+      <div>
+        <h2 ><span class="highlight">05. </span>Contact Me</h2>
+    <hr class="myhr">
+        </div>
+      <div class="container-fluid field">
+        <div class="row">
+          <div class="col-lg-6 column">
+            <h2 class="subheader">Get in touch</h2>
             <hr>
-            <div class="contact-me">
-              <h2>Get In Touch</h2>
-              <h3>If you have anything you want to ask me, or just want to say hi</h3>
-              <p>Reach out in any of my socials and lets chat!</p>
-              <a href=><a href="mailto:hanankmoh@gmail.com" class="btn">Contact Me</a>
+            <p>Do you have anything to say or want to say hi?</p>
+            <p> If so feel free to send me a message using this form or hit me up on any of my socials.</p>
+            <p>Addis Ababa, Ethiopia</p>
+            <p> hanankmoh@gmail.com</p>
+            <p>+251-9200-402-95</p>
+            <a href=""><img class="icon" src="assets/img/twitter.png"></a>
+            <a href=""><img class="icon" src="assets/img/github.png"></a>
+            <a href=""><img class="icon" src="assets/img/telegram.png"></a>
+            <a href=""><img class="icon" src="assets/img/linkedin.png"></a>
+
+            
             </div>
+          <div class="col-lg-6 column">
+            <h2 class="subheader">Send me a message</h2>
+            <hr>
+            <form action="mailto:hanankmoh@gmail.com">
+            <input class="form-control" name="Name" type="text" placeholder="Your Name">
+            <BR>
+            <input class="form-control" name="Email" type="email" placeholder="Your Email">
+            <br>
+            <input class="form-control" name="Subject" type="text" placeholder="Subject">
+            <br>
+            <textarea class="form-control" rows="4" cols="50" name="Message" placeholder="Message"></textarea>
+            <br>
+           <button type="submit" class="mybutton btn-lg">Submit</button>
+        </form>
           </div>
-          
-          
-          <div class="bottom-container">
-            <a class="footer-link" href="https://www.linkedin.com/in/hanankmoh/">LinkedIn</a>
-            <a class="footer-link" href="https://twitter.com/">Twitter</a>
-            <a class="footer-link" href="https://github.com/hannankm/">Github</a>
-            <p class="copyright">© 2022 Hanan Mohammed.</p>
-          </div>
-    </body>
+        
+      </div>
+    </div>
+    </section>
+
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <p> &copy; Copyright 2023 Hanan Kedir</p>
+    <p>Inspired by <a href="https://bootstrapmade.com/">BootstrapMade</a></p>
+
+  </footer><!-- End  Footer -->
+
+  
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center" style="background-color: #ABC237;"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -
+  <script src="assets/js/main.js"></script>
+  -->
+</body>
+
 </html>
